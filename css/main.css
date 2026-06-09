@@ -1,0 +1,435 @@
+@charset "utf-8";
+
+
+#header{
+    border-bottom: 1px solid #ddd;
+    background: #fff;}
+
+#header .inner{width: 1200px; height: 105px;
+    margin: 0 auto; position: relative;}
+
+.logo{position: absolute; left: 50%; top: 50%;
+    transform: translate(-50%,-50%);}
+
+.util{position: absolute; right: 0; top: 35px; display: flex; 
+  gap: 20px; font-size: 15px; color: #666;}
+
+
+
+nav{border-top: 1px solid #eee;}
+
+.gnb{width: 1200px; margin: 0 auto;
+    display: flex; justify-content: center;}
+
+.gnb > li{position: relative;} 
+
+.gnb > li > a{display: block; padding: 11px 25px;
+    font-size: 20px; font-weight: 500;}
+
+.depth2{display: none; position: absolute; left: 50%; top: 100%;
+    transform: translateX(-50%); width: 220px; background: #fff;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15); z-index: 99;}
+
+.depth2 li a{display: block; padding: 5px 20px; font-size: 16px;}
+
+.depth2 li a:hover{background: #d1a67b; color: #fff;}
+
+
+
+#visual{height: 700px;
+    background: url("../images/bg-main.jpg") no-repeat center top;
+    background-size: cover;}
+
+#visual .inner{width: 1700px; height: 700px;
+    margin: 0 auto; position: relative;}
+
+#visual .txt{position: absolute; left: 70px; top: 190px; z-index: 10;}
+
+#visual .txt h2{font-family: "Gowun Dodum", sans-serif;
+    font-size: 32px; line-height: 1.6;
+    font-weight: 400; color: #6b645c; margin-bottom: 40px;}
+
+#visual .txt h2 span{font-family: "Gowun Dodum", sans-serif;
+  color: #8ab39a; font-weight: 500;}
+
+#visual .txt p{margin-top: 25px; font-size: 18px; line-height: 1.8;
+    color: #666;}
+
+
+
+#doctor{background: #f3f3f3; overflow: hidden;}
+
+#doctor .inner{position: relative; width: 1550px; height: 650px; margin: 0 auto;}
+
+#doctor .txt{margin-top: 250px;margin-left: 150px;}
+
+#doctor .txt h2{font-family: "Gowun Dodum", sans-serif;
+  font-size: 32px; line-height: 1.4; font-weight: 400;
+    color: #666; letter-spacing: -1px; margin-bottom: 40px;}
+
+#doctor .txt h2 span{font-family: "Gowun Dodum", sans-serif;
+  color: #97b89f; font-weight: 300;}
+
+#doctor .txt p{font-size: 14px; line-height: 1.8;
+    color: #666; margin-bottom: 25px;}
+
+#doctor .photo-2{position: absolute; right: 0;
+    bottom: 0; }
+
+#doctor .photo-2 img{display: block; height: 780px;}
+
+
+#depart{background: #efebe8; padding: 100px 0 120px;}
+
+#depart .inner{width: 1200px; margin: 0 auto;}
+
+#depart .title{text-align: center; margin-bottom: 60px;}
+
+#depart .title p{font-size: 16px; color: #8b8178; margin-bottom: 5px;}
+
+#depart .title h2{font-family: "Roboto", sans-serif;
+  font-size: 46px; font-weight: 400; color: #333;}
+
+#depart .title h2 span{font-family: "Roboto", sans-serif;
+  color: #b07a44;}
+
+
+
+.depart-list{display: flex; flex-wrap: wrap; gap: 30px;}
+
+.depart-list li{width: calc((100% - 60px) / 3);}
+
+.depart-list li a{display: block; background: #fff; border-radius: 15px;
+    overflow: hidden; box-shadow: 0 3px 3px rgba(0,0,0,0.08);
+    transition: all 0.3s;}
+
+.depart-list li a:hover{transform: translateY(-10px);}
+
+.depart-list img{display: block; width: 100%;}
+
+.depart-list .txt{padding: 15px 15px 15px 15px; text-align: right; height: 120px;}
+
+.depart-list .txt h3{font-size: 22px; color: #b07a44; 
+  margin-bottom: 10px;}
+.depart-list .txt p{font-size: 14px; line-height: 1.7; color: #666;}  
+
+
+#director{background: #f4f4f4;}
+
+#director .inner{width: 1200px; padding-top: 150px; margin: 0 auto;
+  display: flex; justify-content: center; align-items: center;
+  gap: 80px;}
+
+/* 사진 */
+#director .photo{width: 420px;}
+
+#director .photo img{display: block; width: 100%;}
+
+/* 텍스트 */
+
+#director .txt{width: 420px;}
+
+#director .txt h3{margin-bottom: 50px; font-size: 48px; 
+  font-weight: 400; color: #a8733d;}
+
+#director .txt h3 span{font-size: 24px; color: #666;
+    margin-right: 10px;}
+
+/* 약력 */
+
+#director .career{margin-bottom: 40px;}
+
+#director .career li,
+#director .member li{font-size: 15px; color: #666;
+    line-height: 1.5;}
+
+/* 버튼 */
+.btn-more{display: inline-flex; align-items: center;
+    gap: 8px; margin-top: 50px; background: #a8733d;
+    color: #fff; padding: 12px 35px; border-radius: 50px;
+    font-size: 14px;}
+
+.btn-more img{width: 18px;}
+
+
+
+#system{background:url("../images/bg-medical-system.jpg")
+    no-repeat center center; background-size: cover;
+    height: 950px; overflow: hidden;}
+
+#system .inner{width: 1200px; height: 900px;
+    margin: 0 auto; position: relative;}
+
+
+
+
+.system_txt{position: absolute;
+    left: 90px; top: 120px; color: #fff;}
+
+.system_txt span{font-size: 14px;}
+
+.system_txt h2{font-size: 40px; margin: 2px 0 60px; font-weight: 500;}
+
+.system_txt h3{font-family: "Gowun Dodum", sans-serif;
+    font-size: 32px; line-height: 1.4;
+    font-weight: 200; margin-bottom: 50px;}
+
+.system_txt h3 em{color: #b9e7b0; font-style: normal;}
+
+.system_txt p{font-size: 14px; line-height: 1.5;
+    margin-bottom: 25px; font-weight: 200;}
+
+/*카드공통*/
+.system_list li{width: 230px; height: 250px;
+    background: #fff; border-radius: 15px; padding: 20px;
+    position: absolute; 
+    box-shadow: 0 10px 30px rgba(0,0,0,.15); display:flex;
+    flex-direction:column;}
+
+.system_list li strong{font-size:11px; color:#9d6a38;
+    margin-bottom:10px;}
+
+.system_list li h4{color:#9d6a38; font-size:18px;
+    line-height:1.4; margin-bottom:20px;}
+
+.system_list li p{font-size:13px; line-height:1.5;
+    color:#666;}
+
+.system_list li img{width:65px; margin-top:auto;
+    margin-left:auto;}    
+
+
+/*카드위치*/
+.card01{top: 80px; left: 825px}
+.card02{top: 205px; left: 570px;}
+.card03{top: 355px; left: 825px;}
+.card04{top: 480px; left: 570px;}
+.card05{top: 630px; left: 825px;}
+
+
+/*치료후기*/
+#reviews{
+    background: url("../images/bg-medical-review.jpg") no-repeat center center;
+    background-size: cover; padding: 120px 0; overflow: hidden; height: 800px;
+    position: relative;}
+
+#reviews .inner{width: 1400px; height: 560px; margin: 0 auto;
+    display: flex; align-items: center; gap: 100px;}
+
+
+/* 왼쪽 텍스트 */
+
+.reviews_txt{min-height:150px; width: 280px;}
+
+.reviews_txt span{font-family: "Inter", sans-serif;
+    font-size: 14px; color: #9d6a38; font-weight: 400;}
+
+.reviews_txt h2{font-family: "Inter", sans-serif;
+    font-size: 32px; color: #7f542d;
+    margin: 5px 0 25px;}
+
+.reviews_txt p{font-size: 14px; line-height: 1.8;
+    color: #555; margin-bottom: 25px;}
+
+.reviews_txt a{font-family: "Inter", sans-serif;
+    display: inline-block; padding: 10px 25px;
+    background: #a16b34; color: #fff;
+    border-radius: 30px; font-size: 13px;}
+
+.review_btn{display:inline-flex; align-items:center; gap:8px;
+    padding:12px 30px; background:#a16b34;
+    color:#fff; border-radius:30px;}
+
+.review_btn img{width:18px;}    
+
+
+/* swiper */
+
+.reviewSwiper{width:1150px; height: 410px; padding-bottom:60px;}
+
+.reviewSwiper .swiper-wrapper{align-items:center;}
+
+
+/* 기본 카드 */
+
+.reviewSwiper .swiper-slide{  
+    transform: scale(0.6);
+    border-radius:10px; background:#fff;
+    box-shadow:0 10px 20px rgba(0,0,0,.15);
+    position: relative;
+    transition: all 0.5s;   
+    overflow: hidden; 
+}
+
+.reviewSwiper .swiper-slide img{
+    width:100%; height:100%;
+    object-fit:cover;
+}
+
+
+/* 활성 카드 */
+
+.reviewSwiper .swiper-slide-active{ transform: scale(1);}
+
+
+
+/* 첫 번째 카드 설명 */
+
+.review_txt{padding: 15px 20px; background: #fff; position: absolute; width: 100%; left: 0; bottom: 0; opacity: 0;}
+.reviewSwiper .swiper-slide-active .review_txt{opacity: 1;}
+
+.review_txt span{display: inline-block;
+    border: 1px solid #b37b42; border-radius: 20px;
+    padding: 3px 12px; color: #b37b42; font-size: 11px;}
+
+.review_txt p{margin-top: 12px; font-size: 12px; color: #777;
+    line-height: 1.8;}
+
+
+/* 페이지네이션 */
+
+.swiper-pagination{bottom: 0 !important;}
+
+.swiper-pagination-bullet{width: 7px; height: 7px;
+    background: #b88a60; opacity: .3;}
+
+.swiper-pagination-bullet-active{opacity: 1;}
+
+
+
+
+/* 시설 둘러보기 */
+
+#facility{background:#f4f4f4; padding:120px 0;}
+
+#facility .inner{width:1100px; margin:0 auto;
+    text-align:center;}
+
+#facility span{display:block; font-size:18px;
+    color:#888; margin-bottom:15px;}
+
+#facility h2{font-size:46px; font-weight:400;
+    color:#333; margin-bottom:80px;}
+
+#facility h2 em{font-style:normal; color:#a16b34;
+    font-weight:400;}
+
+   
+    
+/* 이미지 */
+
+.facility_list{display:grid; grid-template-columns: repeat(3, 1fr);
+    gap:10px; margin-bottom:70px;}
+
+.facility_list li{overflow:hidden;}
+
+.facility_list li img{width:100%; display:block;
+    transition:.5s;}
+
+.facility_list li:hover img{transform:scale(1.05);}
+
+
+/* 버튼 */
+
+.facility_btn{display:inline-flex;
+    align-items:center; justify-content:center; gap:10px; 
+    width:280px; height:50px; border-radius:30px; 
+    background:#a16b34; color:#fff; font-size:18px;}
+
+.facility_btn img{width:20px;}
+
+
+
+/*진료시간*/
+
+#location{height:680px; position:relative;
+    background:
+    url("../images/bg-location.jpg")
+    no-repeat center center;
+    background-size:cover;}
+
+#location .inner{width:1400px; height:680px; margin:0 auto;
+    display:flex; align-items:center; 
+    justify-content:space-between;}
+
+/* 왼쪽 */
+
+.location_txt{font-family: "IBM Plex Sans KR", sans-serif;
+    width:500px; color:#fff;}
+
+.location_txt img{width:256px; margin-bottom:40px;}
+
+.location_txt h3{font-size:18px; color:#d7a35d;
+    margin-bottom:5px; text-shadow: 3px 3px 8px rgba(0,0,0,0.5);}
+
+.location_txt strong{display:block; font-size:40px;
+    font-weight:300; letter-spacing:2px; margin-bottom:40px;
+    text-shadow: 3px 3px 8px rgba(0,0,0,0.5);}
+
+.time{margin-top:10px;}
+
+.time p{font-family: "IBM Plex Sans KR", sans-serif;
+    text-shadow: 3px 3px 8px rgba(0,0,0,0.5);
+    font-size:20px; line-height:1.7;}
+
+.time .tit{font-family: "IBM Plex Sans KR", sans-serif;
+    text-shadow: 3px 3px 8px rgba(0,0,0,0.5);
+    display:inline-block; width:130px;}
+
+.notice{font-family: "IBM Plex Sans KR", sans-serif;
+    margin-top:40px; color:#d7a35d; font-size:18px;
+    font-weight:600; line-height:1.4;
+    text-shadow: 3px 3px 8px rgba(0,0,0,0.5);}
+
+/* 오른쪽 */
+
+.location_map{width:763px;}
+
+.location_map img{width:100%; display:block;}
+
+.map_txt{margin-top:15px;}
+
+.map_txt strong{font-family: "IBM Plex Sans KR", sans-serif;
+    display:block; color:#d7a35d; 
+    font-size:20px; margin-bottom:5px;
+    text-shadow: 3px 3px 8px rgba(0,0,0,0.5);}
+
+.map_txt p{font-family: "IBM Plex Sans KR", sans-serif;
+    color:#fff; font-size:18px; line-height:1.5; 
+    text-shadow: 3px 3px 8px rgba(0,0,0,0.5);}
+
+
+
+
+#footer{height:450px; background:#8a5a2d; text-align:center; 
+    color:#fff; position:relative;}
+
+/* 로고 */
+.footer_logo{padding-top:55px;}
+.footer_logo img{width:256px;}
+
+/* 구분선 */
+.footer_logo::after{content:"";
+    display:block; width:95%; height:1px;
+    background:rgba(255,255,255,.8);
+    margin:45px auto 0;}
+
+/* 정보 */
+.footer_info{padding-top:70px;}
+.footer_info p{font-family: "IBM Plex Sans KR", sans-serif;
+    font-size:15px; line-height:1.8;
+    letter-spacing:2px;}
+
+.footer_info span{margin:0 12px;}
+
+/* 링크 */
+.footer_link{margin-top:25px;}
+.footer_link a{font-family: "IBM Plex Sans KR", sans-serif;
+    color:#fff; text-decoration:none;
+    margin:0 20px; font-size:15px;}
+
+
+/* 카피라이트 */
+.copyright{font-family: "IBM Plex Sans KR", sans-serif;
+    margin-top:5px; font-size:14px;
+    letter-spacing:3px;}
